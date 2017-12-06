@@ -1,0 +1,47 @@
+<html>
+
+<head>
+ <title>
+   New Drum
+ </title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+// contact
+
+
+</script>
+
+</head>
+<body>
+
+
+<h1> Add Drum</h1>
+
+marcadrum: <input type="text" id="marcadrum" value="" /> <br>
+modelodrum: <input type="text" id="modelodrum" value="" />
+tambores: <input type="text" id="tambores" value="" />
+precio: <input type="text" id="precio" value="" />
+
+ <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
+              <label for="exampleInputEmail1"><i>Foto</i></label>
+               <br>
+               <img  src="" alt="Image preview" id="preview" style="width:128px;height:128px;" >
+               <br>
+               <input type="text" id="url_photo">
+               <br><input onchange="uploadDemoDrum()" type="file"  id="uploaded_file" name="uploaded_file">
+              </div>
+
+
+<br>
+<button onclick="addDrumDemo()"> Post </button> 
+
+<br>
+<br>
+
+<script src="app/Drums.js"></script>
+
+
+</body>
+</html>
